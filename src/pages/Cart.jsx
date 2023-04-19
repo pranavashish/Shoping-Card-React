@@ -55,7 +55,7 @@ const Cart = () => {
         </div>
       ) : (
         <div className="flex flex-col justify-center items-center w-screen h-screen gap-20">
-          <h1 className="text-2xl ">Cart Empety</h1>
+          <h1 className="text-2xl ">Cart Empty</h1>
           <NavLink to="/">
             <button className="bg-blue-700 text-white px-4 py-2 rounded-md">
               Shop Now
